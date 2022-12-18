@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Minor Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        header {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 40px;
+            background-image: linear-gradient(150deg, #ff9933, white, green);
+        }
+
+        body {
+            background-image: linear-gradient(150deg, #ff9933, white, green);
+        }
+
+        div {
+            font-family: 'Inter', sans-serif;
+        }
+
+        #a {grid-area: a1;}
+        #b {grid-area: b1;}
+        #c {grid-area: c1;}
+        #d {grid-area: d1;}
+        #e {grid-area: e1;}
+        #f {grid-area: f1;}
+
+        .maindiv {
+            display: grid;
+            grid-template-areas: 
+            "a1 a1 b1 b1 c1 c1"
+            "d1 d1 e1 e1 f1 f1";
+            padding: 10px;
+            background: transparent;
+            border-radius: 20px;
+        }
+
+        footer {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 25px;
+            background-image: linear-gradient(150deg, #ff9933, white, green);
+            margin-bottom: 0px;
+        }
+
+        .im {
+            border-radius: 10%;
+        }
+
+        .grow img {
+            transition: 1s ease;
+        }
+
+        .grow img:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <div align="center">
+        <header>Historical Places of India</header>
+    </div>
+    <br>
+    <div align="center" class="maindiv">
+        <div id="a" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+                <img class="im" src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="height: 200px; width: 320px">
+            </a><br>Taj Mahal
+        </div>
+        <div id="b" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">
+                <img class="im" src="https://images.pexels.com/photos/7389639/pexels-photo-7389639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="height: 200px; width: 320px">
+            </a><br>Hawa Mahal
+        </div>
+        <div id="c" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Golden_Temple">
+                <img class="im" src="https://assets.cntraveller.in/photos/60c07fa48fc45ba3917d9a50/master/w_1600,c_limit/GettyImages-155152862.jpg"
+                style="height: 200px; width: 320px">
+            </a><br>Golden Temple
+        </div>
+        <div id="d" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Ellora_Caves">
+                <img class="im" src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/01/38/a7.jpg"
+                style="height: 200px; width: 320px">
+            </a><br>Ellora Caves
+        </div>
+        <div id="e" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata">
+                <img class="im" src="https://assets-news.housing.com/news/wp-content/uploads/2021/08/04205223/Victoria-Memorial-Kolkata-An-iconic-marble-structure-of-the-British-era-FB-1200x700-compressed.jpg"
+                style="height: 200px; width: 320px">
+            </a><br>Victoria Palace
+        </div>
+        <div id="f" class="grow">
+            <a href="https://en.wikipedia.org/wiki/Hampi">
+                <img class="im" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hampi_karnataka.jpg/800px-Hampi_karnataka.jpg?20170605161410"
+                style="height: 200px; width: 320px">
+            </a><br>Hampi
+        </div>
+    </div>
+    
+    <div align="center">
+        <audio controls>
+            <source src="https://top10ringtone.com/wp-content/uploads/2021/01/jan-gan-man-song-mp3-52-seconds-download-Original.mp3"> 
+        </audio>
+    </div>
+    <br>
+    
+    <div align="center">
+        <footer>Thank you by Subin Wilfred</footer>
+    </div>
+</body>
+</html>
